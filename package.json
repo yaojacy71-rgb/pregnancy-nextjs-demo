@@ -1,23 +1,22 @@
 {
-  "name": "pregnancy-app-frontend-demo",
+  "name": "pregnancy-nextjs-demo",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3000",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.0",
+    "next": "13.5.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "axios": "1.4.0"
+    "tailwindcss": "3.3.3"
   },
   "devDependencies": {
-    "typescript": "5.5.0",
-    "tailwindcss": "3.5.0",
-    "postcss": "8.4.20",
-    "autoprefixer": "10.4.14"
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "typescript": "5.2.2"
   }
 }
